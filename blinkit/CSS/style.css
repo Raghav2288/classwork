@@ -12,7 +12,7 @@
 }
 
 .dropdown-menu{
-    width:420px;
+    width:470px;
     box-shadow: 1px 1px rgb(191, 200, 202);
     border:0px;
 }
@@ -68,9 +68,7 @@
     left:105%;
     width:10px;
     height: 1px ;
-    background-color: black;
-
-
+    background-color: rgb(163, 155, 155);
 }
 
 .Delivery-Dropdown div span:after{
@@ -78,9 +76,65 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: black;
+    background-color: rgb(163, 155, 155);
     height: 1px;
     width: 10px;
     right:105%;
 }
+
+.form-control{
+    width:900px;
+    border-radius: 10px;
+    
+    
+}
+
+
+.cont{
+    position :relative;
+}
+
+.cont>span{
+    position: absolute;
+    left:5px;
+    top:3px;
+    font-size: 25px;
+
+    
+}
+
+.container img{
+    align-items: center;
+    width:100%;
+
+}
+.cust_1 div span{
+    font-size: 10px;
+    margin-left: 3px;
+}
+
+.cust_1 div span img{
+    width:11px;
+    height: 11px;
+    font-size: 11px;    
+
+}
+
+
+.cust_1 div img{
+    width:140px;
+    height: 140px;    
+
+}
+
+.cust_1 div{
+    margin-right: 10px;    
+
+}
+
+.cust_1{
+    
+}
+
+
 
