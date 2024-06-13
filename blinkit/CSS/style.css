@@ -1,3 +1,86 @@
 .logo{
     width:140px;
 }
+
+.dropdown-toggle::after{
+    position: absolute;
+    top:50px;
+}
+
+.dropdown-toggle{
+    position: relative;
+}
+
+.dropdown-menu{
+    width:420px;
+    box-shadow: 1px 1px rgb(191, 200, 202);
+    border:0px;
+}
+
+.Delivery-Dropdown h5{
+    font-size:14px;
+    color:black;
+    padding-left: 10px;
+    
+} 
+
+.Delivery-Dropdown div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 10px;
+    
+}
+
+.Delivery-Dropdown div button{
+    font-size: 16PX;
+    background-color: green;
+    border-radius: 5PX;
+    
+}
+
+.Delivery-Dropdown div input{
+    font-size: 16PX;
+    border-radius: 5PX;
+    
+    
+
+}
+
+.Delivery-Dropdown div span{
+    border: 1px solid lightgray;
+    width: 25px;
+     height: 25px;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 100px;
+    line-height: 25px ;
+    position: relative;
+    
+    
+}
+
+.Delivery-Dropdown div span:before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform:translateY(-50%);
+    left:105%;
+    width:10px;
+    height: 1px ;
+    background-color: black;
+
+
+}
+
+.Delivery-Dropdown div span:after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: black;
+    height: 1px;
+    width: 10px;
+    right:105%;
+}
+
